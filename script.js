@@ -3,18 +3,13 @@ class Person {
         this.Name = name;
         this.Age = age;
     }
-
-    get getName() {
-        console.log(`The name is ${this.Name}`);
-    }
+get getName(){ return this.Name}
 
     set setage(age) {
      //   console.log(`The age is ${newage}`);
 		this.Age = age;
     }
-	get getAge(){
-		 console.log(`The name is ${this.Age}`);
-	}
+	
 }
 
 class Student extends Person {
