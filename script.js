@@ -9,7 +9,7 @@ class Person {
     }
 
     set setage(newage) {
-		 this.age = newAge;
+		 this.age = newage;
         console.log(`The age is ${newage}`);
     }
 }
