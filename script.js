@@ -12,7 +12,7 @@ class Person {
 }
 
 class Student extends Person {
-    constructor(name,age){
+    constructor(){
         super(name,age)
 
     }
@@ -27,3 +27,8 @@ class Teacher extends Person {
         console.log(`${this.name} is studying`)
     }
 }
+
+// Do not change the code below this line
+window.Person = Person;
+window.Student = Student;
+window.Teacher = Teacher;
