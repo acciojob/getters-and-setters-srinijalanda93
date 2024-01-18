@@ -8,8 +8,8 @@ class Person {
         console.log(`The name is ${this.name}`);
     }
 
-    set setName(newName) {
-        console.log(`The name is ${newName.toLowerCase()}`);
+    set setage(newage) {
+        console.log(`The age is ${newage}`);
     }
 }
 
