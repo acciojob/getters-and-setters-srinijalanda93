@@ -9,8 +9,7 @@ class Person {
     }
 
     set setage(newage) {
-		 
-        console.log(`The age is ${newage}`);
+     //   console.log(`The age is ${newage}`);
 		this.age = newage;
     }
 }
@@ -35,7 +34,5 @@ class Teacher extends Person {
 window.Person = Person;
 window.Student = Student;
 window.Teacher = Teacher;
-const person = new Person("John", 25);
-person.setage = 30; // Set age using the setter
-console.log(person.age); // Check if the age is updated
+
 
